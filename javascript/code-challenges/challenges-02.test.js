@@ -80,6 +80,17 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 
 const forLoopTwoToThe = (arr) => {
   // Solution code here...
+  // empty array
+  let result = [];
+
+  // iterate over each num in arr
+  for (let num of arr) {
+    // raise to power of the current number
+    // push to result array.
+    result.push(Math.pow(2, num));
+  }
+
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------

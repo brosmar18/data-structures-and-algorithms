@@ -142,6 +142,18 @@ For example, ['Alphabet', 'alphabet', 'carrot', 'Zebra'] is correctly sorted, an
 
 const alphabetizeBetter = (arr) => {
   // Solution code here...
+  return arr.sort((a, b) => {
+    const lowerA = a.toLowerCase();
+    const lowerB = b.toLowerCase();
+
+    if (lowerA < lowerB) {
+      return -1;
+    } else if (lowerA > lowerB) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------

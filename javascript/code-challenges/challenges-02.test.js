@@ -145,6 +145,10 @@ For example: charCode(['h','i']) returns [104, 105].
 
 const charCode = (arr) => {
   // Solution code here...
+
+  return arr.map(char => {
+    return char.charCodeAt(0);
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -159,6 +163,16 @@ For example: evenOdd([1,2,3]) returns ['odd','even','odd'].
 
 const evenOdd = (arr) => {
   // Solution code here...
+
+  return arr.map(value => {
+    if(typeof value !== 'number') {
+      return 'N/A';
+    } else if (value % 2 === 0) {
+      return 'even';
+    } else {
+      return 'odd';
+    }
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------

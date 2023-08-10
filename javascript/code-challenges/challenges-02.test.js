@@ -101,6 +101,19 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   // Solution code here...
+  // empty array
+  let result = [];
+
+  // iterate over arr. 
+  arr.forEach(num => {
+    // raise 2 to power of current number.
+    // push to result.
+    result.push(Math.pow(2, num));
+  });
+
+      // return result array.
+      return result;
+
 };
 
 /* ------------------------------------------------------------------------------------------------

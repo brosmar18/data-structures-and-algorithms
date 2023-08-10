@@ -100,10 +100,19 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   // Solution code here...
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
   // Solution code here...
+
+  // Use Array(n) constructor function. n = desired length. 
+  // fill() will fill the empty array with a desired value. 
+  // use .forEach to iterate over this new Array `times` number of times. 
+  Array(times).fill(num).forEach(() => {
+    callback(arr, num);
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------

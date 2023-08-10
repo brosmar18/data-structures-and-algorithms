@@ -64,6 +64,8 @@ HINT: Beware... JS default is "Lexical" ordering.
 
 const sortNumbers = (arr) => {
   // Solution code here...
+  let result = arr.sort((a, b) => a -b);
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------

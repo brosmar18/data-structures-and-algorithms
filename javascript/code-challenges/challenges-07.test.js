@@ -132,6 +132,11 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
+  result = recipe.ingredients.map(ingredient => {
+    const start = ingredient.indexOf(' ') + 1;
+    const secondSpace = ingredient.indexOf(' ', start);
+    return ingredient.slice(secondSpace + 1);
+  })
   return result;
 };
 

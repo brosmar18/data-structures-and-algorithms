@@ -47,6 +47,7 @@ return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
   // Solution code here...
+  return matrix.flat().reduce((acc, curr) => acc + curr, 0);
 };
 
 

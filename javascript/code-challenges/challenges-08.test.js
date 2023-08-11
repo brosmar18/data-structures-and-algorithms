@@ -90,6 +90,8 @@ For example:
 
 const isNum = (input) => {
   // Solution code here...
+  const regex = /\d/;
+  return regex.test(input.toString());
 };
 
 /* ------------------------------------------------------------------------------------------------

@@ -20,6 +20,18 @@ Becomes:
 
 function transformToLis(obj){
   // Solution code here...
+  const listItems = [];
+
+  // loop through each key-value pair
+  for (const key in obj) {
+    if (Object.hasOwnProperty.call(obj, key)) {
+      const listItem = `<li>${key}: ${obj[key]}</li>`;
+
+      listItems.push(listItem);
+    }
+  }
+
+  return listItems;
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -34,6 +46,11 @@ For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 
 const count = (target, input) => {
   // Solution code here...
+  return input.reduce((acc, subArray) => {
+    const subCount = subArray.filter(num => num === target).length;
+
+    return acc + subCount;
+  }, 0)
 };
 
 /* ------------------------------------------------------------------------------------------------

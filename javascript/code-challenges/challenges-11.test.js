@@ -19,19 +19,8 @@ Becomes:
 ------------------------------------------------------------------------------------------------ */
 
 function transformToLis(obj) {
-  // Solution code here...
-  const listItems = [];
-
-  // loop through each key-value pair
-  for (const key in obj) {
-    if (Object.hasOwnProperty.call(obj, key)) {
-      const listItem = `<li>${key}: ${obj[key]}</li>`;
-
-      listItems.push(listItem);
-    }
-  }
-
-  return listItems;
+  const keys = Object.keys(obj);
+  return keys.map(key => `<li>${key}: ${obj[key]}</li>`);
 }
 
 /* ------------------------------------------------------------------------------------------------

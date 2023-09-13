@@ -12,6 +12,21 @@ Write a function named screenForNames that takes in an array of strings and uses
 
 const screenForNames = (arr) => {
   // Solution code here...
+  let filteredNames = [];
+
+  const pattern = /^(Mr\.|Mrs\.|Ms\.|Dr\.) [A-Za-z]+(\s[A-Za-z]+)*$/;
+
+
+  for (let i = 0; i < arr.length; i++) {
+
+    if (pattern.test(arr[i])) {
+
+      filteredNames.push(arr[i]);
+    }
+  }
+
+
+  return filteredNames;
 }
 
 /* ------------------------------------------------------------------------------------------------

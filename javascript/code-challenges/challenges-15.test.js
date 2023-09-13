@@ -119,6 +119,20 @@ let starWarsData = [{
 
 let biggerThanLuke = (arr) => {
   // Solution code here...
+  let luke = arr.find(character => character.name === 'Luke Skywalker');
+  
+  // Check if Luke was found
+  if (!luke) {
+    return "";
+  }
+
+  let lukeMass = luke.mass;
+
+  let filteredCharacters = arr.filter(character => Number(character.mass) > Number(lukeMass));
+
+  let names = filteredCharacters.map(character => character.name).join(' - ');
+
+  return names;
 };
 
 /* ------------------------------------------------------------------------------------------------

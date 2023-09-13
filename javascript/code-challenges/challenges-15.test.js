@@ -177,7 +177,7 @@ https:/missingslash.org returns false because the URL is malformed
 const isSecure = (url) => {
   // Solution code here...
   const pattern = /^https:\/\//;
-  
+
   return pattern.test(url);
 };
 
@@ -202,6 +202,30 @@ Here is a sample board:
 
 const detectTicTacToeWin = (board) => {
   // Solution code here...
+  // Helper function to check if three positions have the same non-empty string
+  const helpCheck = (row1, col1, row2, col2, row3, col3) => {
+    const pos1 = board[row1][col1];
+    const pos2 = board[row2][col2];
+    const pos3 = board[row3][col3];
+
+    return pos1 === pos2 && pos2 === pos3 && pos1 !== '';
+  };
+
+  // Check rows
+  for (let row = 0; row < 3; row++) {
+    if (helpCheck(row, 0, row, 1, row, 2)) return true;
+  }
+
+  // Check columns
+  for (let col = 0; col < 3; col++) {
+    if (helpCheck(0, col, 1, col, 2, col)) return true;
+  }
+
+  // Check diagonals
+  if (helpCheck(0, 0, 1, 1, 2, 2)) return true;
+  if (helpCheck(0, 2, 1, 1, 2, 0)) return true;
+
+  return false;
 };
 
 /* ------------------------------------------------------------------------------------------------

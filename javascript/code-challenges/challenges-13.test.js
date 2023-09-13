@@ -9,7 +9,7 @@ Write a function named longestString that takes in an array of strings and retur
 const longestString = (arr) => {
   // Solution code here...
 
-  if (arr.length === 0) return -1; 
+  if (arr.length === 0) return -1;
 
   let maxLength = 0;
   let longestIndex = 0;
@@ -34,6 +34,15 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['t', 
 
 const firstLetters = (arr) => {
   // Solution code here...
+  const result = [];
+
+  for (const str of arr) {
+    if (str.length > 0) {
+      result.push(str[0]);
+    }
+  }
+
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------

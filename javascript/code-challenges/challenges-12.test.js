@@ -109,6 +109,15 @@ findTagNames(['<div><h1>Hello, world!</h1></div>', '<p>Welcome to my site</p>'])
 
 const findTagNames = elements => {
   // Solution code here...
+  const regex = /\/[a-zA-Z1-6]+/g;
+  let tags = [];
+  for (let element of elements) {
+    let match;
+    while (match = regex.exec(element)) {
+      tags.push(match[0]);
+    }
+  }
+  return tags;
 };
 
 /* ------------------------------------------------------------------------------------------------

@@ -113,6 +113,14 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   // Solution code here...
+  for (const str of arr) {
+    if (!str.includes(":)")) {
+      return false;
+    }
+  }
+
+  return true;
+
 };
 
 /* ------------------------------------------------------------------------------------------------

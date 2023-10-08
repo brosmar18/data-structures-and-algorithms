@@ -26,3 +26,5 @@ Table of Contents
 - [Array Insert Shift](./javascript/arrayInsertShift/README.md)
 
 - [Arrayt Binary Search](./javascript/arrayBinarySearch/README.md)
+
+- [Sum Rows of a Matrix](./javascript/class-04/README.md)

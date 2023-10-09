@@ -28,3 +28,5 @@ Table of Contents
 - [Arrayt Binary Search](./javascript/arrayBinarySearch/README.md)
 
 - [Sum Rows of a Matrix](./javascript/class-04/README.md)
+
+- [Linked Lists](./javascript/linkedLists/README.md)

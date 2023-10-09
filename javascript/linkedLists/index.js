@@ -5,13 +5,19 @@ class Node {
         this.value = value;
         this.next = null;
     }
+}
+
+class LinkedList {
+    constructor() {
+        this.head = null;
+    }
 
     // Insert method
     insert(value) {
         let newNode = new Node(value);
         if (!this.head) {
             this.head = newNode;
-            return ;
+            return;
         }
         newNode.next = this.head;
         this.head = newNode;
@@ -29,7 +35,7 @@ class Node {
         return false; 
     }
 
-    // to string method
+    // toString method
     toString() {
         let current = this.head;
         let result = '';
@@ -40,3 +46,5 @@ class Node {
         return result + 'NULL';
     }
 }
+
+module.exports = LinkedList;

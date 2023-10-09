@@ -12,12 +12,22 @@ describe('Linked List', () => {
         list.insert('test');
         expect(list.head.value).toEqual('test');
       });
-      
+
       it('The head property will properly point to the first node in the linked list', () => {
         const list = new LinkedList();
         list.insert('first');
         list.insert('second');
         expect(list.head.value).toEqual('second');
+      });
+
+      it('Can properly insert multiple nodes into the linked list', () => {
+        const list = new LinkedList();
+        list.insert('first');
+        list.insert('second');
+        list.insert('third');
+        expect(list.head.value).toEqual('third');
+        expect(list.head.next.value).toEqual('second');
+        expect(list.head.next.next.value).toEqual('first');
       });
     
 });

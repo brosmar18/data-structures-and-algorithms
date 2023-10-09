@@ -29,5 +29,14 @@ describe('Linked List', () => {
         expect(list.head.next.value).toEqual('second');
         expect(list.head.next.next.value).toEqual('first');
       });
+
+      it('Will return true when finding a value within the linked list that exists', () => {
+        const list = new LinkedList();
+        list.insert('first');
+        list.insert('second');
+        expect(list.includes('first')).toBe(true);
+        expect(list.includes('second')).toBe(true);
+      });
+    
     
 });

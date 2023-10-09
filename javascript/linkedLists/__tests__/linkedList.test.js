@@ -44,6 +44,13 @@ describe('Linked List', () => {
         list.insert('second');
         expect(list.includes('third')).toBe(false);
       });
-    
+
+      it('Can properly return a collection of all the values that exist in the linked list', () => {
+        const list = new LinkedList();
+        list.insert('first');
+        list.insert('second');
+        list.insert('third');
+        expect(list.toString()).toEqual('{ third } -> { second } -> { first } -> NULL');
+      });
     
 });

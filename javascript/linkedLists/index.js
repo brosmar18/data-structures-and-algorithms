@@ -32,19 +32,20 @@ class LinkedList {
             }
             current = current.next;
         }
-        return false; 
+        return false;
     }
 
-    // toString method
+    // to string method
     toString() {
         let current = this.head;
         let result = '';
         while (current) {
-            result += `${current.value} -> `;
+            result += `{ ${current.value} } -> `;
             current = current.next;
         }
         return result + 'NULL';
     }
+
 }
 
 module.exports = LinkedList;

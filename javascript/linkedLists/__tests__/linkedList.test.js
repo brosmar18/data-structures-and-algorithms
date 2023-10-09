@@ -38,5 +38,12 @@ describe('Linked List', () => {
         expect(list.includes('second')).toBe(true);
       });
     
+      it('Will return false when searching for a value in the linked list that does not exist', () => {
+        const list = new LinkedList();
+        list.insert('first');
+        list.insert('second');
+        expect(list.includes('third')).toBe(false);
+      });
+    
     
 });

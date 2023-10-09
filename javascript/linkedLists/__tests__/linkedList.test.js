@@ -12,4 +12,12 @@ describe('Linked List', () => {
         list.insert('test');
         expect(list.head.value).toEqual('test');
       });
+      
+      it('The head property will properly point to the first node in the linked list', () => {
+        const list = new LinkedList();
+        list.insert('first');
+        list.insert('second');
+        expect(list.head.value).toEqual('second');
+      });
+    
 });

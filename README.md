@@ -30,3 +30,5 @@ Table of Contents
 - [Sum Rows of a Matrix](./javascript/class-04/README.md)
 
 - [Linked Lists](./javascript/linkedLists/README.md)
+
+- [Linked Lists Insertion](./javascript/linked-list-insertions/README.md)

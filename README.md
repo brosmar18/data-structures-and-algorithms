@@ -32,3 +32,5 @@ Table of Contents
 - [Linked Lists](./javascript/linkedLists/README.md)
 
 - [Linked Lists Insertion](./javascript/linked-list-insertions/README.md)
+
+- [Linked List Kth](./javascript/linked-list-kth/README.md)

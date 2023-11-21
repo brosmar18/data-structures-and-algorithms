@@ -38,3 +38,5 @@ Table of Contents
 - [Linked List Zip](./javascript/linkedListZip/README.md)
 
 - [Palindrome Linked List](./javascript/palindrome/README.md)
+
+- [Stack and Queue](./javascript/stackAndQueue/README.md)

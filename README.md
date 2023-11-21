@@ -36,3 +36,5 @@ Table of Contents
 - [Linked List Kth](./javascript/linked-list-kth/README.md)
 
 - [Linked List Zip](./javascript/linkedListZip/README.md)
+
+- [Palindrome Linked List](./javascript/palindrome/README.md)

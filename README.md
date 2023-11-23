@@ -40,3 +40,5 @@ Table of Contents
 - [Palindrome Linked List](./javascript/palindrome/README.md)
 
 - [Stack and Queue](./javascript/stackAndQueue/README.md)
+
+- [Stack-Queue-Pseudo](./javascript/stackQueuePseudo/README.md)

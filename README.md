@@ -42,3 +42,5 @@ Table of Contents
 - [Stack and Queue](./javascript/stackAndQueue/README.md)
 
 - [Stack-Queue-Pseudo](./javascript/stackQueuePseudo/README.md)
+
+- [Stack-Queue-Animal-Shelter](./javascript/animalShelter/README.md)

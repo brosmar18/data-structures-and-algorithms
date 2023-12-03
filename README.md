@@ -48,3 +48,5 @@ Table of Contents
 - [Stack-Queue-Brackets](./javascript/stackQueueBrackets/README.md)
 
 - [Duck Duck Goose](./javascript/duckDuckGoose/README.md)
+
+- [Trees](./javascript/trees/README.md)

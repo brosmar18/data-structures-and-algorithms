@@ -82,3 +82,7 @@ class BinarySearchTree extends BinaryTree {
         return false;
       }
   }
+
+  module.exports = {
+    BinaryTree, BinarySearchTree, Node
+  }

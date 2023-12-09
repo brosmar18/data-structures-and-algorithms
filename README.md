@@ -50,3 +50,5 @@ Table of Contents
 - [Duck Duck Goose](./javascript/duckDuckGoose/README.md)
 
 - [Trees](./javascript/trees/README.md)
+
+- [Tree-Max](./javascript/tree-max/README.md)

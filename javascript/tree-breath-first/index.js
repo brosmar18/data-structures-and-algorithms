@@ -31,4 +31,4 @@ class BinaryTree {
 
 
 
-module.exports = { Node, BinaryTree }
+module.exports = { Node, BinaryTree };

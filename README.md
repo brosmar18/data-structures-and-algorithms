@@ -52,3 +52,5 @@ Table of Contents
 - [Trees](./javascript/trees/README.md)
 
 - [Tree-Max](./javascript/tree-max/README.md)
+
+- [Tree-Breath-First](./javascript/tree-breath-first/README.md)

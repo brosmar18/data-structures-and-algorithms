@@ -3,10 +3,10 @@
 Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. This method works similarly to the way you might sort playing cards in your hands. It is best used on small or mostly sorted datasets. The algorithm iterates thorugh an input list, removing one element per iteartion, and finding the place it belongs in a growing sorted list. This sorting method is efficient for small data sets and is stable, meaning that it preserves the relative order of equal elements. 
 
 ## Article
-[Insertion Sort In-Depth Breakdown](./insertionSort.md);
+[Insertion Sort In-Depth Breakdown](./insertionSort.md)
 
 ## Whiteboard Process
-![Whiteboard](../../assets/insertionSortWhiteboard.png);
+![Whiteboard](../../assets/insertionSortWhiteboard.png)
 
 
 ## Approach & Efficiency

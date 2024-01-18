@@ -58,3 +58,5 @@ Table of Contents
 - [Tree-fizz-buzz](./javascript/tree-fizz-buzz/README.md)
 
 - [Sum-Binary-Tree](./javascript/sum-binary-tree/README.md)
+
+- [Insertion Sort](./javascript/sorting//insertion/README.md)

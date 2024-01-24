@@ -59,4 +59,6 @@ Table of Contents
 
 - [Sum-Binary-Tree](./javascript/sum-binary-tree/README.md)
 
-- [Insertion Sort](./javascript/sorting//insertion/README.md)
+- [Insertion Sort](./javascript/sorting/insertion/README.md)
+
+- [Merge Sort](./javascript/sorting/merge/README.md)

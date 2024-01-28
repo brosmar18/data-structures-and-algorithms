@@ -3,7 +3,7 @@
 The problem involves sorting an array of `Movie` objects, based on different criteria. The first criterion is the `year` of release requiring a sort from the most recent to the oldest. The second criterion is the `title` of the movie, requiring alphabetical sorting while ignoring leading elements (“A”, “An”).
 
 ## Whiteboard Process
-![Whiteboard](../../assets/comparisonsWhiteboard.png)
+![Whiteboard](../../assets/objectSortingWhiteboard.png)
 
 
 ## Approach & Efficiency

@@ -62,3 +62,5 @@ Table of Contents
 - [Insertion Sort](./javascript/sorting/insertion/README.md)
 
 - [Merge Sort](./javascript/sorting/merge/README.md)
+
+- [Sorting Objects](./javascript/sorting/objects/README.md)

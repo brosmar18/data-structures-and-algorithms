@@ -64,3 +64,5 @@ Table of Contents
 - [Merge Sort](./javascript/sorting/merge/README.md)
 
 - [Sorting Objects](./javascript/sorting/objects/README.md)
+
+- [Mock MergeSort](./javascript/sorting/mockMergeSort/README.md)

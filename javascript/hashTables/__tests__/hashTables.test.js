@@ -1,4 +1,4 @@
-const Hashtable = require('../index'); 
+const Hashtable = require('../index');
 
 describe('Hashtable', () => {
   let hashtable;

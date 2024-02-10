@@ -7,7 +7,7 @@ Hash tables are a key-value storage structure that offer efficient retrieval by 
 
 ## Whiteboard Process
 
-![Duck Duck Goose](../assets/hashTablesWhiteboard.png);
+![Hash Tables Whiteboard](../assets/hashTablesWhiteboard.png);
 
 ## Approach & Efficiency
 

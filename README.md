@@ -66,3 +66,5 @@ Table of Contents
 - [Sorting Objects](./javascript/sorting/objects/README.md)
 
 - [Mock MergeSort](./javascript/sorting/mockMergeSort/README.md)
+
+- [Hash Tables](./javascript/hashTables/README.md)

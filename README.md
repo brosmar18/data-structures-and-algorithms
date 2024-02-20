@@ -68,3 +68,5 @@ Table of Contents
 - [Mock MergeSort](./javascript/sorting/mockMergeSort/README.md)
 
 - [Hash Tables](./javascript/hashTables/README.md)
+
+- [Repeated Word](./javascript/hashmap-repeated-word/README.md)

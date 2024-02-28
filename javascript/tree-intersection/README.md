@@ -4,7 +4,7 @@ Write a function callecd `tree_intersection` that takes two binary trees and ret
 
 ## Whiteboard Process
 
-![Tree Intersection Whiteboard](../assets);
+![Tree Intersection Whiteboard](../assets/treeIntersection-whiteboard.png);
 
 ## Approach & Efficiency
 

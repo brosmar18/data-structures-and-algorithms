@@ -4,7 +4,7 @@ Write a function named leftJoin to merge two hashmaps through a LEFT JOIN operat
 
 ## Whiteboard Process
 
-![Hashmap LEFT JOIN Whiteboard](../assets/);
+![Hashmap LEFT JOIN Whiteboard](../assets/hashmap-left-join-whiteboard.png);
 
 ## Approach & Efficiency
 

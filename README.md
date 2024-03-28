@@ -78,4 +78,6 @@ Table of Contents
 
 - [commonWord ](./javascript/commonWord/README.md)
 
-- [UniqueCharacter (Mock Interview) ](./javascript/uniqueCharacter/README.md)
+- [UniqueCharacter (Mock Interview)](./javascript/uniqueCharacter/README.md)
+
+- [Graph](./javascript/graph/README.md)

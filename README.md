@@ -77,3 +77,5 @@ Table of Contents
 - [Hashmap LEFT JOIN](./javascript/hashmap-left-join/README.md)
 
 - [commonWord ](./javascript/commonWord/README.md)
+
+- [UniqueCharacter (Mock Interview) ](./javascript/uniqueCharacter/README.md)

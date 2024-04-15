@@ -2,11 +2,9 @@
 
 The problem is to determine the cost of a business trip itinerary using a graph where cities are represented by nodes and edges are the direct routes between them with associated costs. The goal is to calculate the total cost of traveling between cities listed in the itinerary in the given order if a direct route exists between each pair of adjacent cities; otherwise, the trip is not possible.
 
-
 ## Whiteboard Process
 
 ![Graph Business Trip](../assets/graph-business-trip-whiteboard.png);
-
 
 ## Approach & Efficiency
 
@@ -29,12 +27,11 @@ The function uses the following steps:
 The efficiency of this solution is governed by its time and space complexity:
 
 - **Time Complexity**:
+
   - The time complexity is O(n), where n is the number of city pairs in the itinerary. This is because the function iterates through the itinerary once, checking for the existence of a direct route between each pair of adjacent cities.
 
 - **Space Complexity**:
   - The space complexity is O(1), as the function uses a constant amount of additional space (the `totalCost` variable) regardless of the size of the input.
-
-
 
 ## Solution
 
@@ -56,6 +53,4 @@ function businessTrip(graph, itinerary) {
 
   return totalCost;
 }
-
-
 ```

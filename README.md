@@ -85,3 +85,5 @@ Table of Contents
 - [Graph Breadth First](./javascript/graph-bredth-first/README.md)
 
 - [Graph Business Trip](./javascript/graph-business-trip/README.md)
+
+- [Graph Depth First](./javascript/graph-depth-first/README.md)

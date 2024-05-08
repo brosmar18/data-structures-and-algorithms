@@ -87,3 +87,5 @@ Table of Contents
 - [Graph Business Trip](./javascript/graph-business-trip/README.md)
 
 - [Graph Depth First](./javascript/graph-depth-first/README.md)
+
+- [Class 39 Challenge](./javascript/class-39-challenge/README.md)
